@@ -1,8 +1,11 @@
 O Readme desse repositório representará o primeiro desafio de projeto realizado no curso.
 
 Relatório de Implementação de Serviços AWS
+
 📅 Data: 01/04/2025
+
 🏢 Empresa Fictícia: Abstergo Industries
+
 👤 Responsável: Pedro Vieira
 
 Introdução
@@ -19,6 +22,7 @@ A empresa farmacêutica precisa armazenar grandes volumes de dados, como histór
 
 ✅ Benefício: Redução de custos de armazenamento sem impacto no desempenho, garantindo que os dados menos acessados sejam armazenados de maneira mais econômica sem a necessidade de intervenção manual.
 
+
 Etapa 2: Amazon Aurora (RDS)
 🔹 Foco da ferramenta: Banco de dados relacional de alta performance e escalabilidade.
 
@@ -26,6 +30,7 @@ Etapa 2: Amazon Aurora (RDS)
 Embora o S3 seja eficiente para armazenar dados não estruturados, a empresa precisa de um banco de dados transacional para gerenciar estoques, pedidos, dados de clientes e interações de produtos. O Amazon Aurora foi escolhido por sua alta escalabilidade, performance otimizada e redução de custos operacionais em comparação com bancos de dados tradicionais.
 
 ✅ Benefício: O Aurora se integra perfeitamente com o S3, permitindo um fluxo contínuo de dados. Além disso, sua arquitetura otimizada reduz a necessidade de gerenciamento manual, garantindo alta disponibilidade e baixo custo sem comprometer a eficiência.
+
 
 Etapa 3: AWS Lambda
 🔹 Foco da ferramenta: Automação e processamento de dados em tempo real sem necessidade de servidores.
@@ -39,7 +44,10 @@ Conclusão
 A implementação dessas três ferramentas da AWS na Abstergo Industries resultará em uma redução significativa de custos e um aumento de eficiência operacional.
 
 ✔️ O S3 + Intelligent Tiering reduz os custos de armazenamento ao ajustar automaticamente os dados para camadas mais baratas com base no uso.
+
 ✔️ O Amazon Aurora fornece um banco de dados de alta performance e escalável, garantindo gestão eficiente das informações e redução de custos em comparação com bancos tradicionais.
+
 ✔️ O AWS Lambda automatiza processos críticos, reduzindo custos operacionais e eliminando a necessidade de servidores dedicados para processamento de dados.
+
 
 🔎 Recomenda-se a continuidade da utilização dessas ferramentas, juntamente com monitoramento contínuo e a exploração de novas soluções AWS que possam aprimorar ainda mais os processos e otimizar custos ao longo do tempo.
